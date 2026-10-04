@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Highline Car Detailing | Professional Mobile Car Detailing</title>
+  <meta name="description" content="Highline Car Detailing provides professional mobile car and vehicle detailing, interior and exterior detailing, deep cleaning, polishing, waxing, paint correction and more.">
+  <meta name="theme-color" content="#050505">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Highline Car Detailing | Professional Mobile Car Detailing">
+  <meta property="og:description" content="Professional mobile car and vehicle detailing: interior and exterior detailing, deep cleaning, polishing, waxing, paint correction, boat detailing and more. We bring the shine to you.">
+  <meta property="og:site_name" content="Highline Car Detailing">
+  <meta property="og:image" content="hero%20imge.jpeg">
+  <!-- After deploying, replace the og:image value with the full URL, e.g. https://your-site.pages.dev/hero%20imge.jpeg -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Highline Car Detailing | Professional Mobile Car Detailing">
+  <meta name="twitter:description" content="Professional mobile car and vehicle detailing. We bring the shine to you.">
+
+  <link rel="icon" type="image/jpeg" href="image 1.jpeg">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" referrerpolicy="no-referrer">
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoWash",
+    "name": "Highline Car Detailing",
+    "description": "Professional mobile car and vehicle detailing, including interior and exterior detailing, paint correction, waxing, polishing and boat detailing.",
+    "telephone": "+1-732-712-4317",
+    "email": "highlinecardetailing7@gmail.com",
+    "sameAs": ["https://www.facebook.com/share/1DaJxUFR9E/"]
+  }
+  </script>
+
+  <style>
+    :root{
+      --orange:#FF6A00;
+      --orange-2:#FF7A00;
+      --black:#050505;
+      --black-2:#0A0A0A;
+      --panel:#101010;
+      --panel-2:#151515;
+      --line:rgba(255,255,255,.08);
+      --line-2:rgba(255,255,255,.14);
+      --white:#FFFFFF;
+      --gray:#F3F3F3;
+      --muted:#A7A7A7;
+      --glow:0 0 0 1px rgba(255,106,0,.35), 0 10px 40px -10px rgba(255,106,0,.55);
+      --head:'Oswald', 'Arial Narrow', Impact, sans-serif;
+      --body:'Montserrat', 'Segoe UI', Roboto, Arial, sans-serif;
+      --nav-h:76px;
+      --wrap:1200px;
+      --r-sm:6px;
+      --r-md:10px;
+      --ease:cubic-bezier(.2,.7,.2,1);
+    }
+
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + env(safe-area-inset-top,0px));-webkit-text-size-adjust:100%}
+    body{
+      font-family:var(--body);
+      background:var(--black);
+      color:var(--gray);
+      line-height:1.65;
+      font-size:16px;
+      overflow-x:hidden;
+      -webkit-font-smoothing:antialiased;
+    }
+    img{max-width:100%;display:block;height:auto}
+    a{color:inherit;text-decoration:none}
+    button,input,select,textarea{font:inherit;color:inherit}
+    ul{list-style:none}
+    :focus-visible{outline:2px solid var(--orange);outline-offset:3px;border-radius:4px}
+
+    .wrap{width:100%;max-width:var(--wrap);margin:0 auto;padding:0 20px}
+    .sec{padding:96px 0;position:relative}
+    .sec-head{max-width:720px;margin-bottom:52px}
+    .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+    .kicker{
+      display:inline-flex;align-items:center;gap:10px;
+      color:var(--orange);font-weight:700;font-size:.85rem;letter-spacing:.06em;margin-bottom:14px;
+    }
+    .kicker::before{content:"";width:28px;height:2px;background:var(--orange);box-shadow:0 0 12px var(--orange)}
+    .sec-head.center .kicker::after{content:"";width:28px;height:2px;background:var(--orange);box-shadow:0 0 12px var(--orange)}
+    h1,h2,h3{font-family:var(--head);color:var(--white);line-height:1.08;letter-spacing:.01em;text-transform:uppercase}
+    h2{font-size:clamp(2rem,4.6vw,3.3rem);font-weight:700}
+    h3{font-size:1.25rem;font-weight:600}
+    .lead{color:var(--muted);font-size:1.05rem;margin-top:16px;max-width:60ch}
+    .sec-head.center .lead{margin-left:auto;margin-right:auto}
+
+    /* ===== Buttons ===== */
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      min-height:52px;padding:0 28px;border-radius:var(--r-sm);
+      font-weight:700;font-size:.95rem;letter-spacing:.03em;
+      border:1px solid transparent;cursor:pointer;
+      transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s,border-color .25s,color .25s;
+      white-space:nowrap;position:relative;overflow:hidden;
+    }
+    .btn-primary{background:linear-gradient(180deg,var(--orange-2),var(--orange));color:#0a0a0a;box-shadow:0 8px 30px -8px rgba(255,106,0,.7)}
+    .btn-primary::after{
+      content:"";position:absolute;top:0;left:-120%;width:60%;height:100%;
+      background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);
+      transform:skewX(-20deg);transition:left .6s var(--ease);
+    }
+    .btn-primary:hover{transform:translateY(-2px);box-shadow:0 14px 40px -8px rgba(255,106,0,.85)}
+    .btn-primary:hover::after{left:140%}
+    .btn-ghost{background:rgba(255,255,255,.04);border-color:var(--line-2);color:var(--white);backdrop-filter:blur(8px)}
+    .btn-ghost:hover{border-color:var(--orange);color:var(--orange);transform:translateY(-2px)}
+    .btn i{font-size:.95em}
+
+    /* ===== Navbar ===== */
+    .nav{
+      position:fixed;inset:0 0 auto 0;z-index:100;
+      padding-top:env(safe-area-inset-top,0px);
+      transition:background .3s,border-color .3s,box-shadow .3s;
+      border-bottom:1px solid transparent;
+    }
+    .nav.scrolled{
+      background:rgba(5,5,5,.82);
+      backdrop-filter:blur(14px) saturate(140%);-webkit-backdrop-filter:blur(14px) saturate(140%);
+      border-bottom-color:var(--line);
+      box-shadow:0 10px 30px -15px rgba(0,0,0,.8);
+    }
+    .nav-inner{height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:12px;flex-shrink:0}
+    .brand img{height:52px;width:auto;border-radius:var(--r-sm);object-fit:contain}
+    .brand-name{font-family:var(--head);font-weight:600;color:var(--white);font-size:1.05rem;line-height:1.1;text-transform:uppercase;letter-spacing:.04em}
+    .brand-name small{display:block;font-family:var(--body);font-size:.66rem;color:var(--orange);letter-spacing:.12em;font-weight:700}
+    .nav-links{display:flex;align-items:center;gap:4px}
+    .nav-links a{
+      position:relative;padding:10px 14px;font-size:.88rem;font-weight:600;color:#d6d6d6;transition:color .2s;
+    }
+    .nav-links a::after{
+      content:"";position:absolute;left:14px;right:14px;bottom:4px;height:2px;background:var(--orange);
+      transform:scaleX(0);transform-origin:left;transition:transform .3s var(--ease);box-shadow:0 0 10px var(--orange);
+    }
+    .nav-links a:hover,.nav-links a.active{color:var(--white)}
+    .nav-links a:hover::after,.nav-links a.active::after{transform:scaleX(1)}
+    .nav-cta{min-height:44px;padding:0 20px;font-size:.88rem}
+    .burger{
+      display:none;width:46px;height:46px;border-radius:var(--r-sm);
+      background:rgba(255,255,255,.05);border:1px solid var(--line-2);cursor:pointer;
+      position:relative;
+    }
+    .burger span{position:absolute;left:12px;right:12px;height:2px;background:var(--white);transition:transform .3s var(--ease),opacity .2s,top .3s var(--ease)}
+    .burger span:nth-child(1){top:15px}
+    .burger span:nth-child(2){top:22px}
+    .burger span:nth-child(3){top:29px}
+    .burger[aria-expanded="true"] span:nth-child(1){top:22px;transform:rotate(45deg);background:var(--orange)}
+    .burger[aria-expanded="true"] span:nth-child(2){opacity:0}
+    .burger[aria-expanded="true"] span:nth-child(3){top:22px;transform:rotate(-45deg);background:var(--orange)}
+
+    .mobile-menu{
+      position:fixed;left:0;right:0;top:calc(var(--nav-h) + env(safe-area-inset-top,0px));z-index:99;
+      background:rgba(5,5,5,.97);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+      border-bottom:1px solid var(--line);
+      padding:10px 20px 26px;
+      transform:translateY(-12px);opacity:0;visibility:hidden;pointer-events:none;
+      transition:transform .35s var(--ease),opacity .3s,visibility .3s;
+      max-height:calc(100dvh - var(--nav-h));overflow-y:auto;
+    }
+    .mobile-menu.open{transform:none;opacity:1;visibility:visible;pointer-events:auto}
+    .mobile-menu a.m-link{
+      display:flex;justify-content:space-between;align-items:center;
+      padding:16px 4px;border-bottom:1px solid var(--line);
+      font-family:var(--head);font-size:1.25rem;text-transform:uppercase;color:var(--white);letter-spacing:.03em;
+    }
+    .mobile-menu a.m-link i{color:var(--orange);font-size:.8rem}
+    .mobile-menu a.m-link.active{color:var(--orange)}
+    .mobile-menu .btn{width:100%;margin-top:20px}
+
+    /* ===== Hero ===== */
+    .hero{
+      min-height:100vh;min-height:100svh;
+      padding:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 40px) 0 80px;
+      display:flex;align-items:center;position:relative;overflow:hidden;
+      background:
+        radial-gradient(60% 50% at 85% 40%,rgba(255,106,0,.18),transparent 70%),
+        radial-gradient(40% 40% at 0% 100%,rgba(255,106,0,.10),transparent 70%),
+        linear-gradient(180deg,#000 0%,var(--black) 60%,var(--black-2) 100%);
+    }
+    /* garage light bars */
+    .hero-lights{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+    .hero-lights span{
+      position:absolute;height:2px;left:-10%;right:-10%;
+      background:linear-gradient(90deg,transparent,rgba(255,122,0,.0) 10%,rgba(255,122,0,.75) 50%,rgba(255,122,0,0) 90%,transparent);
+      filter:drop-shadow(0 0 8px rgba(255,106,0,.9));
+      transform:rotate(-8deg);opacity:.5;
+    }
+    .hero-lights span:nth-child(1){top:16%}
+    .hero-lights span:nth-child(2){top:19%;opacity:.25}
+    .hero-lights span:nth-child(3){bottom:12%;transform:rotate(-8deg);opacity:.2}
+    .hero-floor{
+      position:absolute;left:0;right:0;bottom:0;height:35%;
+      background:linear-gradient(180deg,transparent,rgba(255,106,0,.05));
+      pointer-events:none;
+    }
+    .hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+    .hero-tag{
+      display:inline-flex;align-items:center;gap:10px;padding:8px 14px;border-radius:40px;
+      background:rgba(255,106,0,.08);border:1px solid rgba(255,106,0,.35);
+      color:#ffd2b0;font-size:.8rem;font-weight:600;margin-bottom:24px;
+    }
+    .hero-tag .dot{width:8px;height:8px;border-radius:50%;background:var(--orange);box-shadow:0 0 0 4px rgba(255,106,0,.2),0 0 12px var(--orange);animation:pulse 2.2s infinite}
+    @keyframes pulse{0%,100%{box-shadow:0 0 0 4px rgba(255,106,0,.2),0 0 12px var(--orange)}50%{box-shadow:0 0 0 8px rgba(255,106,0,0),0 0 18px var(--orange)}}
+    .hero h1{
+      font-size:clamp(2.6rem,6.4vw,5.4rem);font-weight:700;line-height:.98;letter-spacing:-.005em;
+    }
+    .hero h1 .line{display:block}
+    .hero h1 .outline{
+      color:transparent;-webkit-text-stroke:1.5px var(--orange);
+      text-shadow:0 0 30px rgba(255,106,0,.35);
+    }
+    .hero-sub{
+      font-family:var(--head);font-weight:500;color:var(--orange);
+      font-size:clamp(1.3rem,2.4vw,1.8rem);margin-top:18px;letter-spacing:.02em;
+    }
+    .hero-text{color:#c9c9c9;font-size:1.05rem;margin-top:14px;max-width:52ch}
+    .hero-ctas{display:flex;flex-wrap:wrap;gap:14px;margin-top:32px}
+    .trust{
+      display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:32px;padding-top:24px;border-top:1px solid var(--line);
+      color:#bdbdbd;font-size:.86rem;font-weight:600;
+    }
+    .trust li{display:flex;align-items:center;gap:8px}
+    .trust i{color:var(--orange)}
+
+    .hero-visual{position:relative}
+    .hero-frame{
+      position:relative;border-radius:var(--r-md);padding:8px;
+      background:linear-gradient(145deg,rgba(255,122,0,.55),rgba(255,255,255,.06) 30%,rgba(255,255,255,.02) 70%,rgba(255,106,0,.4));
+      box-shadow:0 30px 80px -20px rgba(0,0,0,.9),0 0 80px -20px rgba(255,106,0,.45);
+    }
+    .hero-frame img{width:100%;height:auto;border-radius:6px;background:#0d0d0d}
+    .hero-frame::after{
+      content:"";position:absolute;inset:8px;border-radius:6px;pointer-events:none;
+      background:linear-gradient(115deg,transparent 35%,rgba(255,255,255,.14) 48%,transparent 60%);
+      background-size:250% 100%;background-position:120% 0;
+      animation:sheen 6s ease-in-out 1.2s infinite;
+    }
+    @keyframes sheen{0%,65%{background-position:120% 0}100%{background-position:-60% 0}}
+    .hero-reflect{
+      height:60px;margin:10px 8px 0;border-radius:6px;
+      background:radial-gradient(60% 100% at 50% 0%,rgba(255,106,0,.35),transparent 70%);
+      filter:blur(14px);opacity:.8;
+    }
+    .hero-badge{
+      position:absolute;left:-22px;bottom:70px;
+      display:flex;align-items:center;gap:12px;padding:14px 18px;border-radius:var(--r-md);
+      background:rgba(10,10,10,.75);border:1px solid var(--line-2);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+      box-shadow:0 20px 40px -12px rgba(0,0,0,.8);
+    }
+    .hero-badge i{width:42px;height:42px;display:grid;place-items:center;border-radius:8px;background:rgba(255,106,0,.15);color:var(--orange);font-size:1.1rem}
+    .hero-badge strong{display:block;font-family:var(--head);color:var(--white);font-size:1.05rem;text-transform:uppercase;letter-spacing:.03em;line-height:1.1}
+    .hero-badge span{font-size:.78rem;color:var(--muted)}
+
+    /* hero load sequence */
+    .hl{opacity:0;transform:translateY(22px);animation:heroIn .9s var(--ease) forwards}
+    .hl.d1{animation-delay:.1s}.hl.d2{animation-delay:.22s}.hl.d3{animation-delay:.34s}.hl.d4{animation-delay:.46s}.hl.d5{animation-delay:.58s}.hl.d6{animation-delay:.7s}
+    .hero-visual.hl{transform:translateY(22px) scale(.98);animation-delay:.3s}
+    @keyframes heroIn{to{opacity:1;transform:none}}
+
+    /* ===== Strip ===== */
+    .strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--black-2);overflow:hidden}
+    .strip-track{display:flex;gap:44px;width:max-content;padding:18px 0;animation:marquee 40s linear infinite}
+    .strip-track span{display:flex;align-items:center;gap:44px;font-family:var(--head);text-transform:uppercase;font-size:1.05rem;color:#cfcfcf;letter-spacing:.06em;white-space:nowrap}
+    .strip-track span::after{content:"";width:8px;height:8px;background:var(--orange);transform:rotate(45deg);box-shadow:0 0 10px var(--orange)}
+    @keyframes marquee{to{transform:translateX(-50%)}}
+
+    /* ===== Services ===== */
+    .services{background:var(--black-2)}
+    .svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .svc{
+      position:relative;padding:28px 24px 26px;border-radius:var(--r-md);
+      background:linear-gradient(180deg,var(--panel-2),var(--panel));
+      border:1px solid var(--line);
+      transition:transform .35s var(--ease),border-color .35s,box-shadow .35s;
+      overflow:hidden;
+    }
+    .svc::before{
+      content:"";position:absolute;top:0;left:24px;right:24px;height:1px;
+      background:linear-gradient(90deg,transparent,rgba(255,106,0,.7),transparent);
+      opacity:0;transition:opacity .35s;
+    }
+    .svc:hover{transform:translateY(-6px);border-color:rgba(255,106,0,.55);box-shadow:var(--glow)}
+    .svc:hover::before{opacity:1}
+    .svc-icon{
+      width:54px;height:54px;border-radius:8px;display:grid;place-items:center;
+      background:rgba(255,106,0,.1);border:1px solid rgba(255,106,0,.3);
+      color:var(--orange);font-size:1.3rem;margin-bottom:20px;
+      transition:background .35s,color .35s,box-shadow .35s;
+    }
+    .svc:hover .svc-icon{background:var(--orange);color:#0a0a0a;box-shadow:0 0 24px rgba(255,106,0,.6)}
+    .svc h3{margin-bottom:8px;font-size:1.18rem}
+    .svc p{color:var(--muted);font-size:.92rem;line-height:1.6}
+    .svc-note{margin-top:36px;text-align:center;color:var(--muted);font-size:.95rem}
+    .svc-note strong{color:var(--white)}
+
+    /* ===== Package ===== */
+    .package{background:var(--black);overflow:hidden}
+    .package::before{
+      content:"";position:absolute;width:700px;height:700px;right:-250px;top:10%;
+      background:radial-gradient(circle,rgba(255,106,0,.14),transparent 65%);pointer-events:none;
+    }
+    .pkg-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center;position:relative}
+    .pkg-list{margin:28px 0 34px;display:grid;gap:14px}
+    .pkg-list li{display:flex;gap:14px;align-items:flex-start;color:#d4d4d4}
+    .pkg-list i{color:var(--orange);margin-top:5px}
+    .img-card{
+      position:relative;border-radius:var(--r-md);overflow:hidden;cursor:zoom-in;
+      border:1px solid var(--line-2);background:#0d0d0d;
+      box-shadow:0 30px 70px -25px rgba(0,0,0,.9),0 0 60px -25px rgba(255,106,0,.5);
+      transition:transform .4s var(--ease),box-shadow .4s;
+    }
+    .img-card:hover{transform:translateY(-4px);box-shadow:0 36px 80px -25px rgba(0,0,0,.9),0 0 80px -20px rgba(255,106,0,.6)}
+    .img-card img{width:100%;height:auto}
+    .zoom-hint{
+      position:absolute;right:14px;bottom:14px;display:flex;align-items:center;gap:8px;
+      padding:8px 12px;border-radius:30px;font-size:.78rem;font-weight:600;color:var(--white);
+      background:rgba(5,5,5,.75);border:1px solid var(--line-2);backdrop-filter:blur(8px);
+      opacity:.9;transition:opacity .3s,background .3s;
+    }
+    .img-card:hover .zoom-hint{background:var(--orange);color:#0a0a0a;border-color:var(--orange)}
+
+    /* ===== Before & After ===== */
+    .ba{background:linear-gradient(180deg,var(--black-2),var(--black))}
+    .ba-stage{max-width:980px;margin:0 auto;position:relative}
+    .ba-stage .img-card{border-color:rgba(255,106,0,.35)}
+    .ba-stage .img-card::after{
+      content:"";position:absolute;top:0;bottom:0;width:3px;left:-5%;
+      background:var(--orange);box-shadow:0 0 18px 4px rgba(255,106,0,.7);
+      opacity:0;
+    }
+    .ba-stage.in .img-card::after{animation:scan 2.4s var(--ease) .3s 1 forwards}
+    @keyframes scan{0%{left:-2%;opacity:0}10%{opacity:1}85%{opacity:1}100%{left:102%;opacity:0}}
+    .ba-cover{
+      position:absolute;inset:0;background:var(--black);z-index:1;transform-origin:right;
+      transition:transform 1.4s var(--ease) .3s;pointer-events:none;
+    }
+    .ba-stage.in .ba-cover{transform:scaleX(0)}
+    .ba-points{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;max-width:980px;margin:28px auto 0}
+    .ba-point{
+      display:flex;align-items:center;gap:14px;padding:18px 20px;border-radius:var(--r-md);
+      background:rgba(255,255,255,.03);border:1px solid var(--line);backdrop-filter:blur(8px);
+    }
+    .ba-point i{width:40px;height:40px;flex-shrink:0;display:grid;place-items:center;border-radius:8px;background:rgba(255,106,0,.12);color:var(--orange)}
+    .ba-point span{font-family:var(--head);text-transform:uppercase;color:var(--white);font-size:1.1rem;letter-spacing:.03em}
+
+    /* ===== Why ===== */
+    .why{background:var(--black);overflow:hidden}
+    .why-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+    .why-card{
+      position:relative;padding:34px 26px 30px;border-radius:var(--r-md);
+      background:linear-gradient(180deg,rgba(255,255,255,.035),rgba(255,255,255,.01));
+      border:1px solid var(--line);
+      transition:border-color .35s,transform .35s var(--ease);
+    }
+    .why-card:hover{border-color:rgba(255,106,0,.5);transform:translateY(-4px)}
+    .why-num{
+      font-family:var(--head);font-weight:700;font-size:3.4rem;line-height:1;
+      color:transparent;-webkit-text-stroke:1.2px var(--orange);margin-bottom:22px;display:block;
+      transition:color .35s,text-shadow .35s;
+    }
+    .why-card:hover .why-num{color:var(--orange);text-shadow:0 0 24px rgba(255,106,0,.55)}
+    .why-card h3{margin-bottom:10px}
+    .why-card p{color:var(--muted);font-size:.94rem}
+    .statement{
+      margin-top:88px;padding:64px 40px;border-radius:var(--r-md);text-align:center;position:relative;overflow:hidden;
+      background:
+        radial-gradient(70% 120% at 50% 120%,rgba(255,106,0,.28),transparent 60%),
+        linear-gradient(180deg,#0e0e0e,#070707);
+      border:1px solid rgba(255,106,0,.25);
+    }
+    .statement::before{
+      content:"";position:absolute;left:10%;right:10%;top:0;height:2px;
+      background:linear-gradient(90deg,transparent,var(--orange),transparent);box-shadow:0 0 20px var(--orange);
+    }
+    .statement h2{font-size:clamp(2rem,5.4vw,4.2rem);line-height:1.02;max-width:16ch;margin:0 auto}
+    .statement h2 .o{color:var(--orange);text-shadow:0 0 34px rgba(255,106,0,.45)}
+    .statement p{color:#cfcfcf;margin:20px auto 0;max-width:52ch;font-size:1.05rem}
+
+    /* ===== Contact ===== */
+    .contact{background:linear-gradient(180deg,var(--black),var(--black-2))}
+    .contact-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:40px;align-items:start}
+    .info-list{display:grid;gap:14px}
+    .info{
+      display:flex;gap:16px;align-items:flex-start;padding:20px;border-radius:var(--r-md);
+      background:var(--panel);border:1px solid var(--line);transition:border-color .3s,transform .3s var(--ease);
+    }
+    a.info:hover{border-color:rgba(255,106,0,.55);transform:translateX(4px)}
+    .info i{width:46px;height:46px;flex-shrink:0;display:grid;place-items:center;border-radius:8px;background:rgba(255,106,0,.12);color:var(--orange);font-size:1.05rem}
+    .info small{display:block;color:var(--muted);font-size:.78rem;font-weight:600;letter-spacing:.04em}
+    .info strong{display:block;color:var(--white);font-size:1.02rem;font-weight:600;word-break:break-word;line-height:1.45}
+    .contact-actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}
+    .contact-actions .btn{width:100%;padding:0 16px}
+    .btn-fb:hover{border-color:#1877F2;color:#fff;background:rgba(24,119,242,.15)}
+
+    .form-card{
+      padding:34px;border-radius:var(--r-md);
+      background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.015));
+      border:1px solid var(--line-2);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+      box-shadow:0 30px 70px -30px rgba(0,0,0,.9),0 0 70px -35px rgba(255,106,0,.6);
+    }
+    .form-card h3{font-size:1.6rem;margin-bottom:6px}
+    .form-card > p{color:var(--muted);font-size:.92rem;margin-bottom:24px}
+    .f-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .f-field{display:flex;flex-direction:column;gap:7px}
+    .f-field.full{grid-column:1/-1}
+    .f-field label{font-size:.82rem;font-weight:600;color:#d8d8d8}
+    .f-field label .req{color:var(--orange)}
+    .f-field input,.f-field select,.f-field textarea{
+      width:100%;min-height:50px;padding:12px 14px;border-radius:var(--r-sm);
+      background:#0b0b0b;border:1px solid var(--line-2);color:var(--white);font-size:.95rem;
+      transition:border-color .25s,box-shadow .25s;
+      -webkit-appearance:none;appearance:none;
+    }
+    .f-field select{
+      background-image:linear-gradient(45deg,transparent 50%,var(--orange) 50%),linear-gradient(135deg,var(--orange) 50%,transparent 50%);
+      background-position:calc(100% - 20px) 21px,calc(100% - 15px) 21px;background-size:5px 5px;background-repeat:no-repeat;padding-right:40px;
+    }
+    .f-field select option{background:#0b0b0b;color:#fff}
+    .f-field input[type="date"]{color-scheme:dark}
+    .f-field textarea{min-height:120px;resize:vertical}
+    .f-field input::placeholder,.f-field textarea::placeholder{color:#6f6f6f}
+    .f-field input:focus,.f-field select:focus,.f-field textarea:focus{outline:none;border-color:var(--orange);box-shadow:0 0 0 3px rgba(255,106,0,.18)}
+    .f-field.invalid input,.f-field.invalid select{border-color:#ff4d4d}
+    .f-submit{width:100%;margin-top:22px}
+    .f-submit[disabled]{opacity:.7;cursor:wait}
+    .f-status{margin-top:14px;font-size:.9rem;min-height:1.4em}
+    .f-status.ok{color:#5be08a}
+    .f-status.err{color:#ff7b7b}
+    .f-status.info{color:#ffc79c}
+    .f-fine{margin-top:6px;font-size:.78rem;color:#7d7d7d}
+    .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+    /* ===== Footer ===== */
+    .footer{background:#000;border-top:1px solid var(--line);padding:60px 0 calc(28px + env(safe-area-inset-bottom,0px))}
+    .foot-top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:30px;padding-bottom:36px;border-bottom:1px solid var(--line)}
+    .foot-brand{display:flex;align-items:center;gap:16px}
+    .foot-brand img{height:72px;width:auto;border-radius:var(--r-sm)}
+    .foot-brand h3{font-size:1.4rem}
+    .foot-brand p{color:var(--orange);font-size:.85rem;font-weight:600}
+    .foot-links{display:flex;flex-wrap:wrap;gap:6px 22px}
+    .foot-links a{color:#bdbdbd;font-size:.9rem;font-weight:500;transition:color .2s}
+    .foot-links a:hover{color:var(--orange)}
+    .foot-social{display:flex;gap:10px}
+    .foot-social a{
+      width:44px;height:44px;display:grid;place-items:center;border-radius:8px;
+      border:1px solid var(--line-2);color:var(--white);transition:all .25s;
+    }
+    .foot-social a:hover{background:var(--orange);border-color:var(--orange);color:#0a0a0a;box-shadow:0 0 20px rgba(255,106,0,.5)}
+    .foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding-top:24px;color:#808080;font-size:.84rem}
+    .foot-bottom .tagline{color:#a9a9a9}
+
+    /* ===== Floating ===== */
+    .float-call{
+      position:fixed;left:16px;right:16px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:90;
+      display:none;align-items:center;justify-content:center;gap:10px;min-height:54px;border-radius:var(--r-sm);
+      background:linear-gradient(180deg,var(--orange-2),var(--orange));color:#0a0a0a;font-weight:800;letter-spacing:.03em;
+      box-shadow:0 12px 30px -6px rgba(255,106,0,.7);
+      transform:translateY(120%);transition:transform .4s var(--ease);
+    }
+    .float-call.show{transform:none}
+    .float-call i{animation:ring 2.4s infinite}
+    @keyframes ring{0%,80%,100%{transform:rotate(0)}84%{transform:rotate(-14deg)}88%{transform:rotate(14deg)}92%{transform:rotate(-10deg)}96%{transform:rotate(8deg)}}
+    .to-top{
+      position:fixed;right:20px;bottom:calc(24px + env(safe-area-inset-bottom,0px));z-index:91;
+      width:48px;height:48px;border-radius:8px;display:grid;place-items:center;cursor:pointer;
+      background:rgba(10,10,10,.85);border:1px solid rgba(255,106,0,.5);color:var(--orange);
+      backdrop-filter:blur(10px);
+      opacity:0;visibility:hidden;transform:translateY(12px);transition:all .3s var(--ease);
+    }
+    .to-top.show{opacity:1;visibility:visible;transform:none}
+    .to-top:hover{background:var(--orange);color:#0a0a0a;box-shadow:0 0 22px rgba(255,106,0,.6)}
+
+    /* ===== Lightbox ===== */
+    .lightbox{
+      position:fixed;inset:0;z-index:200;background:rgba(0,0,0,.92);backdrop-filter:blur(6px);
+      display:flex;align-items:center;justify-content:center;padding:calc(60px + env(safe-area-inset-top,0px)) 16px calc(24px + env(safe-area-inset-bottom,0px));
+      opacity:0;visibility:hidden;transition:opacity .3s,visibility .3s;
+    }
+    .lightbox.open{opacity:1;visibility:visible}
+    .lightbox img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;border-radius:6px;box-shadow:0 0 80px -20px rgba(255,106,0,.5);transform:scale(.96);transition:transform .35s var(--ease)}
+    .lightbox.open img{transform:none}
+    .lb-close{
+      position:absolute;top:calc(14px + env(safe-area-inset-top,0px));right:14px;width:46px;height:46px;border-radius:8px;
+      background:rgba(255,255,255,.08);border:1px solid var(--line-2);color:#fff;font-size:1.2rem;cursor:pointer;
+    }
+    .lb-close:hover{background:var(--orange);color:#0a0a0a}
+
+    /* ===== Reveal ===== */
+    .rv{opacity:0;transform:translateY(28px);transition:opacity .8s var(--ease),transform .8s var(--ease)}
+    .rv.in{opacity:1;transform:none}
+    .rv-d1{transition-delay:.08s}.rv-d2{transition-delay:.16s}.rv-d3{transition-delay:.24s}
+
+    /* ===== Responsive ===== */
+    @media (max-width:1080px){
+      .nav-links{display:none}
+      .burger{display:block}
+      .svc-grid{grid-template-columns:repeat(3,1fr)}
+      .why-grid{grid-template-columns:repeat(2,1fr)}
+    }
+    @media (max-width:960px){
+      .hero-grid{grid-template-columns:1fr;gap:44px}
+      .hero-visual{max-width:640px;margin:0 auto;width:100%}
+      .hero-badge{left:12px}
+      .pkg-grid{grid-template-columns:1fr;gap:40px}
+      .contact-grid{grid-template-columns:1fr}
+    }
+    @media (max-width:760px){
+      :root{--nav-h:66px}
+      .sec{padding:72px 0}
+      .sec-head{margin-bottom:38px}
+      .brand img{height:44px}
+      .brand-name{font-size:.95rem}
+      .nav-cta{display:none}
+      .svc-grid{grid-template-columns:repeat(2,1fr);gap:12px}
+      .svc{padding:22px 18px}
+      .svc-icon{width:46px;height:46px;font-size:1.1rem;margin-bottom:16px}
+      .svc h3{font-size:1.05rem}
+      .svc p{font-size:.86rem}
+      .ba-points{grid-template-columns:1fr;gap:10px}
+      .statement{margin-top:64px;padding:48px 22px}
+      .form-card{padding:24px 18px}
+      .f-grid{grid-template-columns:1fr}
+      .float-call{display:flex}
+      .to-top{bottom:calc(84px + env(safe-area-inset-bottom,0px));right:16px;width:44px;height:44px}
+      .footer{padding-bottom:calc(96px + env(safe-area-inset-bottom,0px))}
+      .hero{padding-top:calc(var(--nav-h) + env(safe-area-inset-top,0px) + 28px);padding-bottom:60px}
+      .hero-ctas .btn{flex:1 1 100%}
+      .hero-badge{position:static;margin:14px auto 0;width:fit-content}
+      .hero-reflect{display:none}
+    }
+    @media (max-width:480px){
+      .wrap{padding:0 16px}
+      .svc-grid{grid-template-columns:1fr}
+      .why-grid{grid-template-columns:1fr}
+      .contact-actions{grid-template-columns:1fr}
+      .brand-name small{display:none}
+      .foot-top{flex-direction:column;align-items:flex-start}
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      html{scroll-behavior:auto}
+      *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+      .hl,.rv{opacity:1!important;transform:none!important}
+      .ba-cover{display:none}
+      .strip-track{animation:none}
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===================== NAVBAR ===================== -->
+  <header class="nav" id="nav">
+    <div class="wrap nav-inner">
+      <a href="#home" class="brand" aria-label="Highline Car Detailing home">
+        <img src="image 1.jpeg" alt="Highline Car Detailing logo" width="120" height="52">
+        <span class="brand-name">Highline<small>Car Detailing</small></span>
+      </a>
+
+      <nav aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#before-after">Before &amp; After</a></li>
+          <li><a href="#why-us">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div style="display:flex;align-items:center;gap:10px">
+        <a href="#contact" class="btn btn-primary nav-cta">Book a Detail</a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <a href="#home" class="m-link active">Home <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#services" class="m-link">Services <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#about" class="m-link">About <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#before-after" class="m-link">Before &amp; After <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#why-us" class="m-link">Why Us <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#contact" class="m-link">Contact <i class="fa-solid fa-chevron-right"></i></a>
+    <a href="#contact" class="btn btn-primary">Book a Detail</a>
+    <a href="tel:+17327124317" class="btn btn-ghost" style="margin-top:10px"><i class="fa-solid fa-phone"></i> (732) 712-4317</a>
+  </div>
+
+  <main>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-lights" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="hero-floor" aria-hidden="true"></div>
+
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="hero-tag hl d1"><span class="dot"></span> Mobile service: we come to you</span>
+          <h1 id="hero-title" class="hl d2">
+            <span class="line">Professional</span>
+            <span class="line outline">Mobile Car</span>
+            <span class="line">Detailing</span>
+          </h1>
+          <p class="hero-sub hl d3">We Bring the Shine to You.</p>
+          <p class="hero-text hl d4">Premium interior and exterior detailing brought directly to your home, workplace, or convenient location.</p>
+          <div class="hero-ctas hl d5">
+            <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-calendar-check"></i> Book Your Detail</a>
+            <a href="tel:+17327124317" class="btn btn-ghost"><i class="fa-solid fa-phone"></i> Call (732) 712-4317</a>
+          </div>
+          <ul class="trust hl d6" aria-label="Highlights">
+            <li><i class="fa-solid fa-award"></i> 2+ Years of Experience</li>
+            <li><i class="fa-solid fa-gem"></i> Quality Workmanship</li>
+            <li><i class="fa-solid fa-thumbs-up"></i> Customer Satisfaction</li>
+          </ul>
+        </div>
+
+        <div class="hero-visual hl">
+          <div class="hero-frame">
+            <img src="hero imge.jpeg" alt="Collage of Highline Car Detailing professional services: interior cleaning, exterior washing, polishing and detailing work" width="1200" height="900" fetchpriority="high">
+          </div>
+          <div class="hero-reflect" aria-hidden="true"></div>
+          <div class="hero-badge">
+            <i class="fa-solid fa-van-shuttle"></i>
+            <div><strong>Fully Mobile</strong><span>Home, work or anywhere convenient</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== STRIP ===================== -->
+    <div class="strip" aria-hidden="true">
+      <div class="strip-track">
+        <span>Interior Detailing</span><span>Exterior Wash</span><span>Paint Correction</span><span>Waxing &amp; Polishing</span><span>Paint Sealant</span><span>Carpet &amp; Seat Shampoo</span><span>Stain &amp; Odor Removal</span><span>Vinyl Coating</span><span>Engine Bay</span><span>Boat Detailing</span>
+        <span>Interior Detailing</span><span>Exterior Wash</span><span>Paint Correction</span><span>Waxing &amp; Polishing</span><span>Paint Sealant</span><span>Carpet &amp; Seat Shampoo</span><span>Stain &amp; Odor Removal</span><span>Vinyl Coating</span><span>Engine Bay</span><span>Boat Detailing</span>
+      </div>
+    </div>
+
+    <!-- ===================== SERVICES ===================== -->
+    <section class="sec services" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="sec-head center rv">
+          <span class="kicker">What we do</span>
+          <h2 id="services-title">Our Detailing Services</h2>
+          <p class="lead">Complete care for your vehicle inside and out, performed by a mobile team that comes to you.</p>
+        </div>
+
+        <div class="svc-grid">
+          <article class="svc rv"><div class="svc-icon"><i class="fa-solid fa-couch"></i></div><h3>Interior Detailing</h3><p>Deep interior cleaning, vacuuming and surface treatment.</p></article>
+          <article class="svc rv rv-d1"><div class="svc-icon"><i class="fa-solid fa-car-side"></i></div><h3>Exterior Detailing</h3><p>Professional wash and exterior cleaning.</p></article>
+          <article class="svc rv rv-d2"><div class="svc-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div><h3>Paint Correction</h3><p>Restore gloss and improve the appearance of your paint.</p></article>
+          <article class="svc rv rv-d3"><div class="svc-icon"><i class="fa-solid fa-shield-halved"></i></div><h3>Wax &amp; Sealant</h3><p>Protect your vehicle and enhance its shine.</p></article>
+          <article class="svc rv"><div class="svc-icon"><i class="fa-solid fa-soap"></i></div><h3>Carpet &amp; Seat Shampoo</h3><p>Deep cleaning for carpets, seats and upholstery.</p></article>
+          <article class="svc rv rv-d1"><div class="svc-icon"><i class="fa-solid fa-chair"></i></div><h3>Leather Conditioning</h3><p>Clean and condition leather surfaces.</p></article>
+          <article class="svc rv rv-d2"><div class="svc-icon"><i class="fa-solid fa-gears"></i></div><h3>Engine Bay Detailing</h3><p>Detailed engine bay cleaning.</p></article>
+          <article class="svc rv rv-d3"><div class="svc-icon"><i class="fa-solid fa-paw"></i></div><h3>Pet Hair Removal</h3><p>Professional removal of stubborn pet hair.</p></article>
+          <article class="svc rv"><div class="svc-icon"><i class="fa-solid fa-temperature-arrow-up"></i></div><h3>Steam Cleaning</h3><p>Deep steam cleaning for interior surfaces.</p></article>
+          <article class="svc rv rv-d1"><div class="svc-icon"><i class="fa-solid fa-lightbulb"></i></div><h3>Headlight Restoration</h3><p>Improve clarity and appearance of headlights.</p></article>
+          <article class="svc rv rv-d2"><div class="svc-icon"><i class="fa-solid fa-ship"></i></div><h3>Boat Detailing</h3><p>Professional detailing services for boats and marine vehicles.</p></article>
+          <article class="svc rv rv-d3"><div class="svc-icon"><i class="fa-solid fa-spray-can-sparkles"></i></div><h3>Deep Cleaning</h3><p>Thorough cleaning for vehicles that need extra attention.</p></article>
+        </div>
+
+        <p class="svc-note rv">Also available: <strong>stain removal, odor removal, polishing, paint sealant and vinyl coating.</strong></p>
+      </div>
+    </section>
+
+    <!-- ===================== PACKAGE / ABOUT ===================== -->
+    <section class="sec package" id="about" aria-labelledby="pkg-title">
+      <div class="wrap pkg-grid">
+        <div class="rv">
+          <span class="kicker">Complete detailing package</span>
+          <h2 id="pkg-title">Everything Your Vehicle Needs</h2>
+          <p class="lead">From interior deep cleaning to exterior protection, our detailing packages are designed to restore your vehicle's appearance and keep it looking its best.</p>
+          <ul class="pkg-list">
+            <li><i class="fa-solid fa-circle-check"></i><span>Highline Car Detailing has 2+ years of professional vehicle detailing experience.</span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span>Our mobile team comes directly to your home, workplace, or any convenient location.</span></li>
+            <li><i class="fa-solid fa-circle-check"></i><span>We detail cars, other vehicles and boats with a focus on quality workmanship.</span></li>
+          </ul>
+          <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-car"></i> Get Your Vehicle Detailed</a>
+        </div>
+
+        <figure class="rv rv-d1">
+          <div class="img-card" data-lightbox="image 3.jpeg" data-alt="Highline Car Detailing complete detailing package details" role="button" tabindex="0" aria-label="Enlarge detailing package image">
+            <img src="image 3.jpeg" alt="Highline Car Detailing complete detailing package details and included services" width="1080" height="1350" loading="lazy" decoding="async">
+            <span class="zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i> Tap to enlarge</span>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== BEFORE & AFTER ===================== -->
+    <section class="sec ba" id="before-after" aria-labelledby="ba-title">
+      <div class="wrap">
+        <div class="sec-head center rv">
+          <span class="kicker">Real results</span>
+          <h2 id="ba-title">See The Difference</h2>
+          <p class="lead">Professional detailing can transform the look and feel of your vehicle.</p>
+        </div>
+
+        <div class="ba-stage" id="baStage">
+          <div class="img-card" data-lightbox="image 2.jpeg" data-alt="Before and after interior detailing by Highline Car Detailing" role="button" tabindex="0" aria-label="Enlarge before and after image">
+            <div class="ba-cover" aria-hidden="true"></div>
+            <img src="image 2.jpeg" alt="Before and after comparison of a vehicle interior detailed by Highline Car Detailing" width="1200" height="900" loading="lazy" decoding="async">
+            <span class="zoom-hint"><i class="fa-solid fa-magnifying-glass-plus"></i> Tap to enlarge</span>
+          </div>
+        </div>
+
+        <div class="ba-points">
+          <div class="ba-point rv"><i class="fa-solid fa-spray-can-sparkles"></i><span>Deep Cleaning</span></div>
+          <div class="ba-point rv rv-d1"><i class="fa-solid fa-magnifying-glass"></i><span>Attention to Detail</span></div>
+          <div class="ba-point rv rv-d2"><i class="fa-solid fa-star"></i><span>Professional Finish</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== WHY US ===================== -->
+    <section class="sec why" id="why-us" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="sec-head rv">
+          <span class="kicker">The Highline standard</span>
+          <h2 id="why-title">Why Choose Highline Car Detailing?</h2>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-card rv"><span class="why-num">01</span><h3>2+ Years Experience</h3><p>Professional vehicle detailing experience with a focus on quality.</p></article>
+          <article class="why-card rv rv-d1"><span class="why-num">02</span><h3>Mobile Convenience</h3><p>We come directly to your home, workplace, or convenient location.</p></article>
+          <article class="why-card rv rv-d2"><span class="why-num">03</span><h3>Attention to Detail</h3><p>We take the time to properly clean and detail every part of your vehicle.</p></article>
+          <article class="why-card rv rv-d3"><span class="why-num">04</span><h3>Customer Satisfaction</h3><p>Quality workmanship and a commitment to delivering a great experience.</p></article>
+        </div>
+
+        <div class="statement rv">
+          <h2>Your car deserves <span class="o">more than a quick wash.</span></h2>
+          <p>We focus on the details that make your vehicle look, feel and shine better.</p>
+          <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-top:30px">
+            <a href="#contact" class="btn btn-primary">Book a Detail</a>
+            <a href="tel:+17327124317" class="btn btn-ghost"><i class="fa-solid fa-phone"></i> Call Now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="sec contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap">
+        <div class="sec-head rv">
+          <span class="kicker">Book your detail</span>
+          <h2 id="contact-title">Ready to Bring Back the Shine?</h2>
+          <p class="lead">Book your professional mobile detailing service today.</p>
+        </div>
+
+        <div class="contact-grid">
+          <div class="rv">
+            <div class="info-list">
+              <a class="info" href="tel:+17327124317"><i class="fa-solid fa-phone"></i><div><small>Phone</small><strong>(732) 712-4317</strong></div></a>
+              <a class="info" href="mailto:highlinecardetailing7@gmail.com"><i class="fa-solid fa-envelope"></i><div><small>Email</small><strong>highlinecardetailing7@gmail.com</strong></div></a>
+              <div class="info"><i class="fa-solid fa-car"></i><div><small>Service</small><strong>Mobile Car &amp; Vehicle Detailing</strong></div></div>
+              <div class="info"><i class="fa-solid fa-location-arrow"></i><div><small>Availability</small><strong>Mobile service at your home, workplace, or convenient location.</strong></div></div>
+            </div>
+            <div class="contact-actions">
+              <a href="tel:+17327124317" class="btn btn-primary"><i class="fa-solid fa-phone-volume"></i> Call Now</a>
+              <a href="https://www.facebook.com/share/1DaJxUFR9E/" target="_blank" rel="noopener noreferrer" class="btn btn-ghost btn-fb"><i class="fa-brands fa-facebook-f"></i> Follow Us on Facebook</a>
+            </div>
+          </div>
+
+          <div class="form-card rv rv-d1">
+            <h3>Request a Detail</h3>
+            <p>Tell us about your vehicle and the service you need. We'll get back to you to confirm.</p>
+
+            <!--
+              FORM SETUP
+              ----------
+              Option A (recommended): Formspree
+                1. Create a free form at https://formspree.io
+                2. Copy your endpoint (looks like https://formspree.io/f/abcdwxyz)
+                3. Paste it into FORMSPREE_ENDPOINT in the <script> at the bottom of this file.
+              Option B (default while FORMSPREE_ENDPOINT is empty):
+                Submitting opens the visitor's email app with all details pre-filled,
+                addressed to highlinecardetailing7@gmail.com.
+            -->
+            <form id="bookingForm" novalidate>
+              <div class="hp" aria-hidden="true">
+                <label for="company">Company</label>
+                <input type="text" id="company" name="_gotcha" tabindex="-1" autocomplete="off">
+              </div>
+              <div class="f-grid">
+                <div class="f-field">
+                  <label for="name">Name <span class="req">*</span></label>
+                  <input type="text" id="name" name="name" autocomplete="name" placeholder="Your full name" required>
+                </div>
+                <div class="f-field">
+                  <label for="phone">Phone <span class="req">*</span></label>
+                  <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(000) 000-0000" required>
+                </div>
+                <div class="f-field">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com">
+                </div>
+                <div class="f-field">
+                  <label for="vehicle">Vehicle Type <span class="req">*</span></label>
+                  <select id="vehicle" name="vehicle_type" required>
+                    <option value="">Select vehicle</option>
+                    <option>Sedan / Coupe</option>
+                    <option>SUV / Crossover</option>
+                    <option>Truck</option>
+                    <option>Van / Minivan</option>
+                    <option>Boat</option>
+                    <option>Other</option>
+                  </select>
+                </div>
+                <div class="f-field">
+                  <label for="service">Service Needed <span class="req">*</span></label>
+                  <select id="service" name="service" required>
+                    <option value="">Select service</option>
+                    <option>Full Detail (Interior &amp; Exterior)</option>
+                    <option>Interior Detailing</option>
+                    <option>Exterior Detailing</option>
+                    <option>Paint Correction</option>
+                    <option>Wax &amp; Sealant</option>
+                    <option>Carpet &amp; Seat Shampoo</option>
+                    <option>Leather Conditioning</option>
+                    <option>Engine Bay Detailing</option>
+                    <option>Pet Hair Removal</option>
+                    <option>Steam Cleaning</option>
+                    <option>Headlight Restoration</option>
+                    <option>Vinyl Coating</option>
+                    <option>Boat Detailing</option>
+                    <option>Deep Cleaning</option>
+                    <option>Not sure / Other</option>
+                  </select>
+                </div>
+                <div class="f-field">
+                  <label for="date">Preferred Date</label>
+                  <input type="date" id="date" name="preferred_date">
+                </div>
+                <div class="f-field full">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Vehicle make/model, condition, location details or anything else we should know"></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary f-submit" id="submitBtn"><i class="fa-solid fa-paper-plane"></i> Request a Detail</button>
+              <p class="f-status" id="formStatus" role="status" aria-live="polite"></p>
+              <p class="f-fine" id="formFine">Prefer to talk? Call <a href="tel:+17327124317" style="color:var(--orange)">(732) 712-4317</a>.</p>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="wrap">
+      <div class="foot-top">
+        <div class="foot-brand">
+          <img src="image 1.jpeg" alt="Highline Car Detailing logo" width="150" height="72" loading="lazy">
+          <div>
+            <h3>Highline Car Detailing</h3>
+            <p>Professional Mobile Vehicle Detailing</p>
+          </div>
+        </div>
+        <nav aria-label="Footer">
+          <ul class="foot-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#before-after">Before &amp; After</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="foot-social">
+          <a href="tel:+17327124317" aria-label="Call Highline Car Detailing"><i class="fa-solid fa-phone"></i></a>
+          <a href="mailto:highlinecardetailing7@gmail.com" aria-label="Email Highline Car Detailing"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://www.facebook.com/share/1DaJxUFR9E/" target="_blank" rel="noopener noreferrer" aria-label="Highline Car Detailing on Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="foot-bottom">
+        <span class="tagline">Quality Workmanship • Attention to Detail • Customer Satisfaction</span>
+        <span>© 2026 Highline Car Detailing. All Rights Reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating mobile call + back to top -->
+  <a href="tel:+17327124317" class="float-call" id="floatCall" aria-label="Call Highline Car Detailing"><i class="fa-solid fa-phone"></i> Call Now: (732) 712-4317</a>
+  <button class="to-top" id="toTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lb-close" id="lbClose" aria-label="Close image"><i class="fa-solid fa-xmark"></i></button>
+    <img id="lbImg" src="" alt="">
+  </div>
+
+  <script>
+  (function(){
+    'use strict';
+
+    /* ---------- CONFIG ---------- */
+    // Paste your Formspree endpoint here, e.g. "https://formspree.io/f/abcdwxyz".
+    // Leave empty to use the email-app (mailto) fallback.
+    var FORMSPREE_ENDPOINT = "";
+    var BUSINESS_EMAIL = "highlinecardetailing7@gmail.com";
+
+    var nav = document.getElementById('nav');
+    var burger = document.getElementById('burger');
+    var menu = document.getElementById('mobileMenu');
+    var toTop = document.getElementById('toTop');
+    var floatCall = document.getElementById('floatCall');
+
+    /* ---------- Mobile menu ---------- */
+    function setMenu(open){
+      burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+      burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      menu.classList.toggle('open', open);
+      menu.setAttribute('aria-hidden', open ? 'false' : 'true');
+      if(open) nav.classList.add('scrolled'); else onScroll();
+    }
+    burger.addEventListener('click', function(){ setMenu(!menu.classList.contains('open')); });
+    menu.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){ setMenu(false); });
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape'){ setMenu(false); closeLightbox(); }
+    });
+    window.addEventListener('resize', function(){
+      if(window.innerWidth > 1080 && menu.classList.contains('open')) setMenu(false);
+    });
+
+    /* ---------- Scroll state ---------- */
+    var ticking = false;
+    function onScroll(){
+      var y = window.scrollY || window.pageYOffset;
+      if(!menu.classList.contains('open')) nav.classList.toggle('scrolled', y > 20);
+      toTop.classList.toggle('show', y > 600);
+      floatCall.classList.toggle('show', y > 400);
+      ticking = false;
+    }
+    window.addEventListener('scroll', function(){
+      if(!ticking){ window.requestAnimationFrame(onScroll); ticking = true; }
+    }, {passive:true});
+    onScroll();
+
+    toTop.addEventListener('click', function(){ window.scrollTo({top:0, behavior:'smooth'}); });
+
+    /* ---------- Active nav link ---------- */
+    var sectionIds = ['home','services','about','before-after','why-us','contact'];
+    var allLinks = document.querySelectorAll('.nav-links a, .mobile-menu a.m-link');
+    function setActive(id){
+      allLinks.forEach(function(l){
+        l.classList.toggle('active', l.getAttribute('href') === '#' + id);
+      });
+    }
+    if('IntersectionObserver' in window){
+      var secObs = new IntersectionObserver(function(entries){
+        entries.forEach(function(en){ if(en.isIntersecting) setActive(en.target.id); });
+      }, {rootMargin:'-45% 0px -50% 0px', threshold:0});
+      sectionIds.forEach(function(id){
+        var el = document.getElementById(id);
+        if(el) secObs.observe(el);
+      });
+    }
+
+    /* ---------- Reveal on scroll ---------- */
+    var revealEls = document.querySelectorAll('.rv');
+    var baStage = document.getElementById('baStage');
+    if('IntersectionObserver' in window){
+      var rvObs = new IntersectionObserver(function(entries, obs){
+        entries.forEach(function(en){
+          if(en.isIntersecting){ en.target.classList.add('in'); obs.unobserve(en.target); }
+        });
+      }, {threshold:0.12, rootMargin:'0px 0px -40px 0px'});
+      revealEls.forEach(function(el){ rvObs.observe(el); });
+      if(baStage) rvObs.observe(baStage);
+    } else {
+      revealEls.forEach(function(el){ el.classList.add('in'); });
+      if(baStage) baStage.classList.add('in');
+    }
+
+    /* ---------- Lightbox ---------- */
+    var lb = document.getElementById('lightbox');
+    var lbImg = document.getElementById('lbImg');
+    var lbClose = document.getElementById('lbClose');
+    var lastFocus = null;
+    function openLightbox(src, alt){
+      lastFocus = document.activeElement;
+      lbImg.src = src; lbImg.alt = alt || '';
+      lb.classList.add('open');
+      document.body.style.overflow = 'hidden';
+      lbClose.focus();
+    }
+    function closeLightbox(){
+      if(!lb.classList.contains('open')) return;
+      lb.classList.remove('open');
+      document.body.style.overflow = '';
+      if(lastFocus) lastFocus.focus();
+    }
+    document.querySelectorAll('[data-lightbox]').forEach(function(card){
+      function go(){ openLightbox(card.getAttribute('data-lightbox'), card.getAttribute('data-alt')); }
+      card.addEventListener('click', go);
+      card.addEventListener('keydown', function(e){
+        if(e.key === 'Enter' || e.key === ' '){ e.preventDefault(); go(); }
+      });
+    });
+    lbClose.addEventListener('click', closeLightbox);
+    lb.addEventListener('click', function(e){ if(e.target === lb) closeLightbox(); });
+
+    /* ---------- Date min = today ---------- */
+    var dateInput = document.getElementById('date');
+    if(dateInput){
+      var t = new Date();
+      var iso = t.getFullYear() + '-' + String(t.getMonth()+1).padStart(2,'0') + '-' + String(t.getDate()).padStart(2,'0');
+      dateInput.min = iso;
+    }
+
+    /* ---------- Booking form ---------- */
+    var form = document.getElementById('bookingForm');
+    var statusEl = document.getElementById('formStatus');
+    var submitBtn = document.getElementById('submitBtn');
+    var btnHTML = submitBtn.innerHTML;
+
+    function setStatus(msg, type){
+      statusEl.textContent = msg;
+      statusEl.className = 'f-status' + (type ? ' ' + type : '');
+    }
+    function validate(){
+      var ok = true, first = null;
+      form.querySelectorAll('[required]').forEach(function(f){
+        var bad = !f.value.trim();
+        f.parentElement.classList.toggle('invalid', bad);
+        if(bad){ ok = false; if(!first) first = f; }
+      });
+      var email = form.email;
+      if(email.value.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.value.trim())){
+        email.parentElement.classList.add('invalid'); ok = false; if(!first) first = email;
+      } else { email.parentElement.classList.remove('invalid'); }
+      if(first) first.focus();
+      return ok;
+    }
+    form.querySelectorAll('input, select').forEach(function(f){
+      f.addEventListener('input', function(){ f.parentElement.classList.remove('invalid'); });
+      f.addEventListener('change', function(){ f.parentElement.classList.remove('invalid'); });
+    });
+
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      if(form._gotcha && form._gotcha.value) return; // spam trap
+      if(!validate()){ setStatus('Please fill in your name, phone, vehicle type and service.', 'err'); return; }
+
+      var d = {
+        name: form.name.value.trim(),
+        phone: form.phone.value.trim(),
+        email: form.email.value.trim(),
+        vehicle: form.vehicle_type.value,
+        service: form.service.value,
+        date: form.preferred_date.value,
+        message: form.message.value.trim()
+      };
+
+      if(FORMSPREE_ENDPOINT){
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+        setStatus('', '');
+        fetch(FORMSPREE_ENDPOINT, {
+          method:'POST',
+          headers:{'Accept':'application/json'},
+          body:new FormData(form)
+        }).then(function(res){
+          if(res.ok){
+            form.reset();
+            setStatus('Request sent. We will contact you shortly to confirm your detail.', 'ok');
+          } else {
+            return res.json().then(function(j){
+              var msg = (j && j.errors && j.errors.length) ? j.errors.map(function(x){return x.message;}).join(', ') : 'The request could not be sent.';
+              setStatus(msg + ' Please call (732) 712-4317 instead.', 'err');
+            }).catch(function(){
+              setStatus('The request could not be sent. Please call (732) 712-4317 instead.', 'err');
+            });
+          }
+        }).catch(function(){
+          setStatus('No connection. Check your internet or call (732) 712-4317.', 'err');
+        }).finally(function(){
+          submitBtn.disabled = false;
+          submitBtn.innerHTML = btnHTML;
+        });
+        return;
+      }
+
+      // Mailto fallback (no backend configured)
+      var subject = 'Detail Request: ' + d.service + ' - ' + d.name;
+      var body =
+        'Name: ' + d.name + '\n' +
+        'Phone: ' + d.phone + '\n' +
+        'Email: ' + (d.email || '-') + '\n' +
+        'Vehicle Type: ' + d.vehicle + '\n' +
+        'Service Needed: ' + d.service + '\n' +
+        'Preferred Date: ' + (d.date || '-') + '\n\n' +
+        'Message:\n' + (d.message || '-');
+      window.location.href = 'mailto:' + BUSINESS_EMAIL +
+        '?subject=' + encodeURIComponent(subject) +
+        '&body=' + encodeURIComponent(body);
+      setStatus('Your email app should open with the request filled in. Press send there to complete it. If nothing opened, email ' + BUSINESS_EMAIL + ' or call (732) 712-4317.', 'info');
+    });
+  })();
+  </script>
+</body>
+</html>
